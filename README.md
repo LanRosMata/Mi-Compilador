@@ -12,7 +12,7 @@ luego se finaliza con ";"
 
 Sintaxis:
 
---MULT:
---a+b-(c+d)/e;
+    MULT:
+    a+b-(c+d)/e;
 
 Tome en concideración que las letras deben son ejemplo y debe ser numero, ya que el traductor no contempla la declaración de variables.
