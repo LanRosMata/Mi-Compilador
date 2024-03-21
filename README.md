@@ -16,3 +16,8 @@ Sintaxis:
     a+b-(c+d)/e;
 
 Tome en concideración que las letras deben son ejemplo y debe ser numero, ya que el traductor no contempla la declaración de variables.
+
+Ejemplo:
+
+    MULT:
+    8+1-(10+5)/2*(4/2);
