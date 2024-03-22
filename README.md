@@ -18,12 +18,12 @@ Son operaciones con múltiples operadores, estos paréntesis, siempre se debe es
 Se inicia con la palabra ‘EXP’ seguido de ‘:’ y un salto de línea. Y se finaliza con un ‘;’.
 
 Sintaxis:
-	EXP:
-	a+b-(c+d)/e;
+EXP:
+a+b-(c+d)/e;
 
 Ejemplo
-	EXP:
-	3*(1-2)+10/2;
+EXP:
+3*(1-2)+10/2;
 
 En el código, utilizamos pilas para almacenar uno por uno cada uno de los caracteres para ser evaluados, esto a manera de Tokens.
 
@@ -33,18 +33,18 @@ Estas operaciones tienen como palabra cable las siguientes: Sumas es ‘SUM’, 
 La estructura requiere iniciar con la palabra reservada para hacer la operación luego inicia con corchetes ‘{‘ luego todos los números a calcular divididos por una coma ‘,’ y se finaliza cerrando corchetes ‘}’. Todos debe ser escrito en la misma línea y no requiere punto y coma ‘;’.
 
 Sintaxis:
-	SUM{a,b,c,d}
+SUM{a,b,c,d}
 
 Ejemplo 1:
-	REST{90,7,15,6}
+REST{90,7,15,6}
 
 Ejemplo 2:
-	MULT{-8,9,2.5,5}
+MULT{-8,9,2.5,5}
 
 Ejemplo 3:
-	DIV{100,4,1}
+DIV{100,4,1}
 
 Ejemplo 4:
-	SUM{6,3,7,8.9}
+SUM{6,3,7,8.9}
 
 En ambos se puede usar numero enteros o reales, positivos y negativos y su tipo se especificará en la tabla de símbolos.
