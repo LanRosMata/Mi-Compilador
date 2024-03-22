@@ -19,7 +19,7 @@ Se inicia con la palabra ‘EXP’ seguido de ‘:’ y un salto de línea. Y se
 
 Sintaxis:
 EXP:
-a+b-(c+d)/e;
+  a+b-(c+d)/e;
 
 Ejemplo
 EXP:
